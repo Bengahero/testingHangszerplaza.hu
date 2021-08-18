@@ -8,4 +8,4 @@ Az alkalmazás a www.hangszerplaza.hu internetes hangszerbolt weboldalának fel�
 - Termék keresése, kosárba rakása, törlése
 - Több oldalas lista bejárása, adatok letöltése külső fájlba
 
-Az alkalmazás a Java nyelven íródott.
+Az alkalmazás  Java programnyelben íródott.
