@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -11,10 +12,11 @@ import java.io.IOException;
 import java.util.List;
 
 
-public class SearchPage {
+public class SearchPage{
     private WebDriver driver;
     private final By FIRST_PRODUCT = By.cssSelector("#pagination_contents > div.grid-list > div:nth-child(1) > div > form > div.ty-grid-list__item-name > bdi > a");
     private final By SEARCH_RESULT_TEXT = By.xpath("//*[@id=\"products_search_total_found_11\"]");
+    private final By NEXT_BUTTON = By.xpath("//*[@id=\"pagination_contents\"]/div[1]/a[2]/i");
 
 
     public SearchPage(WebDriver driver) {
@@ -23,21 +25,30 @@ public class SearchPage {
 
     public void clickOnNextAndCaptureNames() throws InterruptedException, IOException {
         File file = new File("/Users/bencefulop/Downloads/codecool/automation testing/testingHangszerplaza.hu/search.txt");
-        //int paginationSize = driver.findElements(By.cssSelector("#pagination_contents > div.ty-pagination > div.ty-pagination__items > a")).size();
-        WebElement titles = driver.findElement(By.xpath("//*[@id=\"pagination_contents\"]/div[3]"));
-        List<WebElement> titleNames = titles.findElements(By.xpath("//bdi//a"));
-        for (WebElement title : titleNames) {
-            FileWriter writer = new FileWriter(file);
-            BufferedWriter bufferedWriter = new BufferedWriter(writer);
+        FileWriter writer = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter(writer);
+        int paginationSize = driver.findElements(By.xpath("//*[@id=\"pagination_contents\"]/div[1]/div/a")).size();
+        List<WebElement> titles = driver.findElements(By.className("ty-grid-list__item-name"));
+        for (WebElement title : titles) {
             bufferedWriter.write(title.getText());
-            bufferedWriter.close();
+            bufferedWriter.newLine();
+            System.out.println(title.getText());
         }
-        /*for(int i = 2; i <= paginationSize+1; i++ ){
-            String paginationSelector = "#pagination_contents > div.ty-pagination > div > a:nth-child("+i+")";
-            JavascriptExecutor executor = (JavascriptExecutor)driver;
-            executor.executeScript("arguments[0].click();", driver.findElement(By.cssSelector(paginationSelector)));
-            Thread.sleep(2000);
-        }*/
+        int i = 0;
+
+        while (i<paginationSize) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].click();", driver.findElement(NEXT_BUTTON));
+            Thread.sleep(1000);
+            titles = driver.findElements(By.className("ty-grid-list__item-name"));
+            for (WebElement title : titles) {
+                bufferedWriter.write(title.getText());
+                bufferedWriter.newLine();
+                System.out.println(title.getText());
+            }
+            i++;
+        }
+        bufferedWriter.close();
     }
 
     public ProductPage clickOnProduct(){

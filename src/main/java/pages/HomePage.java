@@ -37,6 +37,7 @@ public class HomePage extends FileUtil {
         this.driver = driver;
     }
 
+
     // methods
     public void logIn() throws InterruptedException, IOException {
         clickRegisterMenu();
