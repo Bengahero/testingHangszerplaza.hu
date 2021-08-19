@@ -13,7 +13,7 @@ public class HomePage extends FileUtil {
 
 
     // for registration
-    private final By REGISTER_MENU = By.linkText("Bejelentkezés / Regisztráció");
+    private final By REGISTER_MENU = By.xpath("//*[@id=\"sw_dropdown_303\"]/a/span");
     private final By REGISTER_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a[2]");
 
     // for login
