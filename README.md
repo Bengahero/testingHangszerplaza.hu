@@ -8,4 +8,5 @@ Az alkalmazás a www.hangszerplaza.hu internetes hangszerbolt weboldalának fel�
 - Termék keresése, kosárba rakása, törlése
 - Több oldalas lista bejárása, adatok letöltése külső fájlba
 
-Az alkalmazás  Java programnyelven íródott.
+A vizsgaremek_tesztmenedzser.xlsx fájl tartalmazza a tesztesetek leírását.
+Az alkalmazás Java programnyelven íródott.
