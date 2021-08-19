@@ -1,0 +1,1 @@
+{"uuid":"98ea054b-bbfd-43fc-9391-38d6b1e01950","name":"setProfileDataTest()","children":["e04d8bd3-4aa9-4caa-a1d0-d7c898cd18fd"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629360076848,"stop":1629360083195}],"afters":[],"links":[],"start":1629360076695,"stop":1629360092480}
