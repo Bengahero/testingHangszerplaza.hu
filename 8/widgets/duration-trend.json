@@ -1,3 +1,10 @@
 [ {
+  "buildOrder" : 8,
+  "reportUrl" : "https://Bengahero.github.io/testingHangszerplaza.hu/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 37322
+  }
+}, {
   "data" : { }
 } ]

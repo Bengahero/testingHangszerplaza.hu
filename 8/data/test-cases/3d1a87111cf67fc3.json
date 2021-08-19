@@ -1,0 +1,58 @@
+{
+  "uid" : "3d1a87111cf67fc3",
+  "name" : "registrationTest()",
+  "fullName" : "register.RegisterTest.registrationTest",
+  "historyId" : "3ab596caa0264f9e34eb0036a86bd82b",
+  "time" : {
+    "start" : 1629378080022,
+    "stop" : 1629378080023,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void register.RegisterTest.registrationTest() throws java.io.IOException is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-854"
+  }, {
+    "name" : "thread",
+    "value" : "4039@fv-az83-854.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "register.RegisterTest"
+  }, {
+    "name" : "testClass",
+    "value" : "register.RegisterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "register.RegisterTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d1a87111cf67fc3.json",
+  "parameterValues" : [ ]
+}
