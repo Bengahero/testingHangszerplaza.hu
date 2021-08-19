@@ -27,12 +27,20 @@ public class BaseTest {
         properties.load(fis);
         WebDriverManager.chromedriver().setup();
         ChromeOptions ops = new ChromeOptions();
+        ops.addArguments("--no-sandbox");
+        ops.addArguments("--window-size=1920,1080");
         ops.addArguments("--disable-notifications");
+        ops.addArguments("--disable-extensions");
+        ops.addArguments("start-maximized");
         ops.addArguments("--incognito");
+        ops.addArguments("--headless");
         driver = new ChromeDriver(ops);
         driver.get(properties.getProperty("url"));
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
+
+
+
 
     }
 }
