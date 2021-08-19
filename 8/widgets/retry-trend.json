@@ -1,25 +1,6 @@
 [ {
-  "buildOrder" : 8,
-  "reportUrl" : "https://Bengahero.github.io/testingHangszerplaza.hu/8/",
-  "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 11,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 7,
-  "reportUrl" : "https://Bengahero.github.io/testingHangszerplaza.hu/7/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 11,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "https://Bengahero.github.io/testingHangszerplaza.hu/6/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 11,
+    "run" : 0,
     "retry" : 0
   }
 } ]
