@@ -26,18 +26,24 @@ public class BaseTest {
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
         WebDriverManager.chromedriver().setup();
-        ChromeOptions ops = new ChromeOptions();
-        ops.addArguments("--no-sandbox");
-        ops.addArguments("--window-size=1920,1080");
-        ops.addArguments("--disable-notifications");
-        ops.addArguments("--disable-extensions");
-        ops.addArguments("start-maximized");
-        ops.addArguments("--incognito");
-        ops.addArguments("--headless");
-        driver = new ChromeDriver(ops);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--disable-notifications");
+        options.addArguments("--disable-extensions");
+        options.addArguments("start-maximized");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        options.addArguments("--proxy-server='direct://");
+        options.addArguments("--proxy-bypass-list=*");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--incognito");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
-        driver.manage().window().maximize();
         homePage = new HomePage(driver);
+
+
 
 
 
