@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.VNftxr}, goog:chromeOptions: {debuggerAddress: localhost:43905}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e4d6f5a3888b66ddbc9ed91fe812d330\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "productDataDownload()",
+        "uid" : "b3977484bf7a78ed",
+        "parentUid" : "bda05df627c9d4257c37617038f9af08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460125667,
+          "stop" : 1629460130817,
+          "duration" : 5150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bda05df627c9d4257c37617038f9af08"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.84vKpG}, goog:chromeOptions: {debuggerAddress: localhost:37679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b9761481a5a64f4db88e3f2744e8d4d\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "addProductToCartAndRemove()",
+        "uid" : "e067e3a698b3dd6c",
+        "parentUid" : "d075c32505f8953af914bdc6ed530053",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460131433,
+          "stop" : 1629460132828,
+          "duration" : 1395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d075c32505f8953af914bdc6ed530053"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.jDM6rM}, goog:chromeOptions: {debuggerAddress: localhost:34031}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b348dcfe9e797c608e54582d2c0a1db\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "succesfullLogOut()",
+        "uid" : "4d1c0104691deb85",
+        "parentUid" : "9a0eba83a4140d320326ef5b51eee12b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460132878,
+          "stop" : 1629460134366,
+          "duration" : 1488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a0eba83a4140d320326ef5b51eee12b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.okG7j6}, goog:chromeOptions: {debuggerAddress: localhost:45455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bf4a8f4665b8e0c9cc75f751cb622280\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "setProfileDataTest()",
+        "uid" : "8c33c31aa2952d5a",
+        "parentUid" : "d905aac6a295c61b3a6c3bddbd66b270",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460134430,
+          "stop" : 1629460136077,
+          "duration" : 1647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d905aac6a295c61b3a6c3bddbd66b270"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zai5pw}, goog:chromeOptions: {debuggerAddress: localhost:34925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e68c9492bf6292fd5570f28a475d763\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "updateNamesTest()",
+        "uid" : "a6427742fad791d4",
+        "parentUid" : "c022dfd6e2e255d9a06ad8c062fa21bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460136099,
+          "stop" : 1629460137599,
+          "duration" : 1500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c022dfd6e2e255d9a06ad8c062fa21bc"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.HQ3kkR}, goog:chromeOptions: {debuggerAddress: localhost:46149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 671067dccb74930c49fe4dc930799cc5\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "setCityTest()",
+        "uid" : "623a398c07ccfcd6",
+        "parentUid" : "55615e6a74c2d93ba9a9a1486c03d9ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460137613,
+          "stop" : 1629460139311,
+          "duration" : 1698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55615e6a74c2d93ba9a9a1486c03d9ba"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.IO6mJf}, goog:chromeOptions: {debuggerAddress: localhost:33841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 954a759a6ed2b2a9ffeaac1bb5ea8291\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "enterMyProfileTest()",
+        "uid" : "aa1e88d96dbeb2d9",
+        "parentUid" : "fbe1e0a540fd0ef0c42b838a8b4c1f81",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460139332,
+          "stop" : 1629460141272,
+          "duration" : 1940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbe1e0a540fd0ef0c42b838a8b4c1f81"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.jr378K}, goog:chromeOptions: {debuggerAddress: localhost:46019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9264cae5f0a30bd8ef88cfaf384d4e6f\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "successfullSearch()",
+        "uid" : "d3ae02765a62a057",
+        "parentUid" : "a9cc44ae571f376c9a7a2ad835e49bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460141296,
+          "stop" : 1629460143590,
+          "duration" : 2294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9cc44ae571f376c9a7a2ad835e49bfe"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.3hu1at}, goog:chromeOptions: {debuggerAddress: localhost:43955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 08c5cd72298de383966806bac0501c48\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "multiplePageSearch()",
+        "uid" : "4c66f11d8fe88ea3",
+        "parentUid" : "d447ed7c54acaed8822a4c899b8adfa4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460143614,
+          "stop" : 1629460145810,
+          "duration" : 2196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d447ed7c54acaed8822a4c899b8adfa4"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"sw_dropdown_303\"]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-28', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.2Nw20U}, goog:chromeOptions: {debuggerAddress: localhost:36869}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c5f73d2c24a0735f8216348f2cc6fbf5\n*** Element info: {Using=xpath, value=//*[@id=\"sw_dropdown_303\"]/a}",
+      "children" : [ {
+        "name" : "successfullLogin()",
+        "uid" : "1c0cd4863e71ba51",
+        "parentUid" : "79380e3693e4fbde0c7cee51285e29e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629460145951,
+          "stop" : 1629460148202,
+          "duration" : 2251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79380e3693e4fbde0c7cee51285e29e7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
