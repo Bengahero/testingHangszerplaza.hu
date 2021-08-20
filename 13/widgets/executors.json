@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Bengahero.github.io/testingHangszerplaza.hu",
+  "buildOrder" : 13,
+  "buildName" : "GitHub Actions Run #1150626891",
+  "buildUrl" : "https://github.com/Bengahero/testingHangszerplaza.hu/actions/runs/1150626891",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Bengahero.github.io/testingHangszerplaza.hu/13/"
+} ]
