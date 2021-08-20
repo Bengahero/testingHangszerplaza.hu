@@ -9,7 +9,8 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class HomePage extends FileUtil {
-    private WebDriver driver;
+    WebDriver driver;
+    WebDriverWait wait;
 
 
     // for registration
@@ -32,6 +33,7 @@ public class HomePage extends FileUtil {
     private final By SEARCH_BAR = By.id("search_input");
 
 
+
     // constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -51,6 +53,7 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
     }
 
