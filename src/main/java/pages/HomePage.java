@@ -14,7 +14,7 @@ public class HomePage extends FileUtil {
 
 
     // for registration
-    private final By REGISTER_MENU = By.xpath("//*[@id=\"sw_dropdown_303\"]/a");
+    private final By REGISTER_MENU = By.className("ty-account-info__title");
     private final By REGISTER_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a[2]");
 
     // for login
@@ -30,7 +30,7 @@ public class HomePage extends FileUtil {
     private final By LOGOUT_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a");
 
     //for searching
-    private final By SEARCH_BAR = By.id("search_input");
+    private final By SEARCH_BAR = By.xpath("//*[@id=\"search_input\"]");
 
 
 
@@ -54,8 +54,6 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
-        WebDriverWait wait = new WebDriverWait(driver,30);
-        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
     }
 
@@ -97,9 +95,6 @@ public class HomePage extends FileUtil {
     }
 
     public SearchPage searching (String item){
-        WebDriverWait wait = new WebDriverWait(driver,30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_BAR));
-        wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
         driver.findElement(SEARCH_BAR).sendKeys(item + Keys.ENTER);
         return new SearchPage(driver);
     }
