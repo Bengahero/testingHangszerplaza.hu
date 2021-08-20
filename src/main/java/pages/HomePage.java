@@ -13,7 +13,7 @@ public class HomePage extends FileUtil {
 
 
     // for registration
-    private final By REGISTER_MENU = By.xpath("//*[@id=\"sw_dropdown_303\"]/a/span");
+    private final By REGISTER_MENU = By.xpath("//*[@id=\"sw_dropdown_303\"]/a");
     private final By REGISTER_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a[2]");
 
     // for login
@@ -29,7 +29,7 @@ public class HomePage extends FileUtil {
     private final By LOGOUT_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a");
 
     //for searching
-    private final By SEARCH_BAR = By.xpath("//*[@id=\"search_input\"]");
+    private final By SEARCH_BAR = By.id("search_input");
 
 
     // constructor

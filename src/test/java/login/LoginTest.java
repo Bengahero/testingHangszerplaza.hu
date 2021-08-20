@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import java.io.IOException;
 
 public class LoginTest extends BaseTest {
-    private static final By PROFIL_BUTTON_AFTER_LOGIN = By.xpath("//*[@id=\"sw_dropdown_303\"]/a/span");
+    private static final By PROFIL_BUTTON_AFTER_LOGIN = By.xpath("//*[@id=\"sw_dropdown_303\"]/a");
 
     //Bejelentkezés
 
