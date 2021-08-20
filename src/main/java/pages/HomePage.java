@@ -34,6 +34,7 @@ public class HomePage extends FileUtil {
 
 
 
+
     // constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -54,7 +55,6 @@ public class HomePage extends FileUtil {
 
     public void clickRegisterMenu() {
         WebDriverWait wait = new WebDriverWait(driver,30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_MENU));
         wait.until(ExpectedConditions.elementToBeClickable(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
     }
@@ -97,6 +97,9 @@ public class HomePage extends FileUtil {
     }
 
     public SearchPage searching (String item){
+        WebDriverWait wait = new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_BAR));
+        wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
         driver.findElement(SEARCH_BAR).sendKeys(item + Keys.ENTER);
         return new SearchPage(driver);
     }
