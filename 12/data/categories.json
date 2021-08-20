@@ -1,0 +1,159 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.RR408q}, goog:chromeOptions: {debuggerAddress: localhost:42627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fb99859acef356fbc19a88bc0c6e5763\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "productDataDownload()",
+        "uid" : "b3f76ae2d6b503f6",
+        "parentUid" : "b0587832f598058c034f075838fbe03b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461716247,
+          "stop" : 1629461722426,
+          "duration" : 6179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0587832f598058c034f075838fbe03b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ah907z}, goog:chromeOptions: {debuggerAddress: localhost:34037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ccf64fb7e22e7d653c4eb13e15d8257d\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "addProductToCartAndRemove()",
+        "uid" : "e64985a8224a3ba9",
+        "parentUid" : "ddb511bf1976cfbff7a7716fca9297ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461723204,
+          "stop" : 1629461725116,
+          "duration" : 1912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddb511bf1976cfbff7a7716fca9297ef"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"sw_dropdown_303\"]/a (tried for 30 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "succesfullLogOut()",
+        "uid" : "88d4436dffe2f1b8",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461725179,
+          "stop" : 1629461758201,
+          "duration" : 33022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setProfileDataTest()",
+        "uid" : "3d834d422ab1170a",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461758281,
+          "stop" : 1629461793534,
+          "duration" : 35253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateNamesTest()",
+        "uid" : "68e51c5b485f93b8",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461793555,
+          "stop" : 1629461826123,
+          "duration" : 32568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setCityTest()",
+        "uid" : "de28f5f64047694b",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461826145,
+          "stop" : 1629461859695,
+          "duration" : 33550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "enterMyProfileTest()",
+        "uid" : "58a991495fc8a251",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461859743,
+          "stop" : 1629461892123,
+          "duration" : 32380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfullLogin()",
+        "uid" : "b3857a103dc30abc",
+        "parentUid" : "74b849ca4d02b857f8cfe6ef0ef0cb98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461897600,
+          "stop" : 1629461930611,
+          "duration" : 33011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74b849ca4d02b857f8cfe6ef0ef0cb98"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.THn6Z7}, goog:chromeOptions: {debuggerAddress: localhost:39883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 183d54f8c8cfd138a7f718c8f02a7da6\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "successfullSearch()",
+        "uid" : "ca52d05c051d33e4",
+        "parentUid" : "650b42ca1612b948a18de4d24bb6a52b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461892162,
+          "stop" : 1629461894864,
+          "duration" : 2702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "650b42ca1612b948a18de4d24bb6a52b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#search_input\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-136', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.H2kWCK}, goog:chromeOptions: {debuggerAddress: localhost:40937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ca33f5d0a3dd9479af75a6f81d1ed966\n*** Element info: {Using=id, value=search_input}",
+      "children" : [ {
+        "name" : "multiplePageSearch()",
+        "uid" : "d3c183d7db87c426",
+        "parentUid" : "1b7d028fc41f5bd0bf0501e7a74dcde8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629461894884,
+          "stop" : 1629461897550,
+          "duration" : 2666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b7d028fc41f5bd0bf0501e7a74dcde8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
