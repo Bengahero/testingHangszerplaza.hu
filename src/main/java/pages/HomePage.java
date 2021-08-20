@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class HomePage extends FileUtil {
     WebDriver driver;
-    WebDriverWait wait;
+
 
 
     // for registration
@@ -53,7 +53,9 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
+        WebDriverWait wait = new WebDriverWait(driver,30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_MENU));
+        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
     }
 
