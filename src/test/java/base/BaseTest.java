@@ -12,6 +12,7 @@ import pages.HomePage;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 
 public class BaseTest {
@@ -40,6 +41,7 @@ public class BaseTest {
         options.addArguments("--incognito");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get(properties.getProperty("url"));
         homePage = new HomePage(driver);
 
