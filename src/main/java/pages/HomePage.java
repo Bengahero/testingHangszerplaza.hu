@@ -59,8 +59,6 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
-        WebDriverWait wait = new WebDriverWait(driver,10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
 
     }
