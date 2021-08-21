@@ -14,7 +14,7 @@ public class HomePage extends FileUtil {
 
 
     // for registration
-    private final By REGISTER_MENU = By.className("ty-account-info__title");
+    private final By REGISTER_MENU = By.xpath("/html/body/div[1]/div[4]/div[2]/div/div/div[3]/div/div[1]/a/span");
     private final By REGISTER_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a[2]");
 
     // for login
