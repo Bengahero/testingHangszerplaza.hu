@@ -7,7 +7,7 @@ on: push
 jobs:
   autotests:
     name: Run tests and generate Allure Report
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
 
