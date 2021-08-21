@@ -1,12 +1,17 @@
 package pages;
+
 import fileutil.FileUtil;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 public class HomePage extends FileUtil {
     WebDriver driver;
@@ -54,10 +59,12 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(REGISTER_MENU).click();
     }
 
     public RegisterPage clickRegisterButton() {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(REGISTER_BUTTON).click();
         return new RegisterPage(driver);
     }
