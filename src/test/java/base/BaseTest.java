@@ -36,6 +36,7 @@ public class BaseTest {
         options.addArguments("--proxy-server='direct://");
         options.addArguments("--proxy-bypass-list=*");
         options.addArguments("--disable-gpu");
+        options.addArguments("--allowed-ips");
         options.addArguments("--incognito");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);

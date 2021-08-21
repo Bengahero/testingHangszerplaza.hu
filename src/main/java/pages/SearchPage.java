@@ -30,6 +30,7 @@ public class SearchPage{
         int paginationSize = driver.findElements(By.xpath("//*[@id=\"pagination_contents\"]/div[1]/div/a")).size();
         List<WebElement> titles = driver.findElements(By.className("ty-grid-list__item-name"));
         for (WebElement title : titles) {
+            Thread.sleep(1000);
             bufferedWriter.write(title.getText());
             bufferedWriter.newLine();
             System.out.println(title.getText());
@@ -39,9 +40,9 @@ public class SearchPage{
         while (i<paginationSize) {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].click();", driver.findElement(NEXT_BUTTON));
-            Thread.sleep(1000);
-            titles = driver.findElements(By.className("ty-grid-list__item-name"));
+            titles = driver.findElements(By.xpath("//div[@class='ty-grid-list__item-name']//a"));
             for (WebElement title : titles) {
+                Thread.sleep(1000);
                 bufferedWriter.write(title.getText());
                 bufferedWriter.newLine();
                 System.out.println(title.getText());
