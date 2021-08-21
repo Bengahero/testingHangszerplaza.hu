@@ -1,0 +1,111 @@
+[ {
+  "uid" : "2c0004d15aea1ddd",
+  "name" : "setCityTest()",
+  "time" : {
+    "start" : 1629554030060,
+    "stop" : 1629554031070,
+    "duration" : 1010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8bece868580bb75e",
+  "name" : "enterMyProfileTest()",
+  "time" : {
+    "start" : 1629554031082,
+    "stop" : 1629554032079,
+    "duration" : 997
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6222674f6daa43f8",
+  "name" : "addProductToCartAndRemove()",
+  "time" : {
+    "start" : 1629554027541,
+    "stop" : 1629554028019,
+    "duration" : 478
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff01c2d7e8561b9f",
+  "name" : "registrationTest()",
+  "time" : {
+    "start" : 1629554034296,
+    "stop" : 1629554034296,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "94e6396ee60446a5",
+  "name" : "setProfileDataTest()",
+  "time" : {
+    "start" : 1629554028562,
+    "stop" : 1629554029280,
+    "duration" : 718
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fc1a05682dd3f0c5",
+  "name" : "successfullLogin()",
+  "time" : {
+    "start" : 1629554034331,
+    "stop" : 1629554035697,
+    "duration" : 1366
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ae8f179b22fc991",
+  "name" : "multiplePageSearch()",
+  "time" : {
+    "start" : 1629554033129,
+    "stop" : 1629554034270,
+    "duration" : 1141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ced2af7be0056a8",
+  "name" : "successfullSearch()",
+  "time" : {
+    "start" : 1629554032097,
+    "stop" : 1629554033122,
+    "duration" : 1025
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bbe8db7c56327e0a",
+  "name" : "succesfullLogOut()",
+  "time" : {
+    "start" : 1629554028027,
+    "stop" : 1629554028536,
+    "duration" : 509
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16460b056d70524e",
+  "name" : "productDataDownload()",
+  "time" : {
+    "start" : 1629554014106,
+    "stop" : 1629554027436,
+    "duration" : 13330
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4732e5b34c5ce619",
+  "name" : "updateNamesTest()",
+  "time" : {
+    "start" : 1629554029297,
+    "stop" : 1629554030041,
+    "duration" : 744
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
