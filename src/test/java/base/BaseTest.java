@@ -3,6 +3,7 @@ package base;
 //junit 5.
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -43,11 +44,9 @@ public class BaseTest {
         Thread.sleep(5000);
         driver.get(properties.getProperty("url"));
         homePage = new HomePage(driver);
-
-
-
-
-
-
+    }
+    @AfterEach
+    public void tearDown(){
+        driver.quit();
     }
 }
