@@ -1,0 +1,160 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "productDataDownload()",
+    "uid" : "206545d7291e417a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639897354,
+      "stop" : 1629639909197,
+      "duration" : 11843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "addProductToCartAndRemove()",
+    "uid" : "dff63d6ea39e0fe0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639910044,
+      "stop" : 1629639916725,
+      "duration" : 6681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "succesfullLogOut()",
+    "uid" : "c7e52efbb237d0a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639916826,
+      "stop" : 1629639923636,
+      "duration" : 6810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setProfileDataTest()",
+    "uid" : "e86453e086cf6a3d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639923674,
+      "stop" : 1629639930670,
+      "duration" : 6996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "updateNamesTest()",
+    "uid" : "958c170ca75cc99e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639930696,
+      "stop" : 1629639937658,
+      "duration" : 6962
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setCityTest()",
+    "uid" : "aa25134a1cc49882",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639937665,
+      "stop" : 1629639944661,
+      "duration" : 6996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "enterMyProfileTest()",
+    "uid" : "21974025e6153bc2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639944673,
+      "stop" : 1629639951879,
+      "duration" : 7206
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "successfullSearch()",
+    "uid" : "be48ec6855736fb7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639951897,
+      "stop" : 1629639959337,
+      "duration" : 7440
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "multiplePageSearch()",
+    "uid" : "d0e569313dc04585",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629639959357,
+      "stop" : 1629639967003,
+      "duration" : 7646
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "registrationTest()",
+    "uid" : "5ccea72e24925530",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1629639967080,
+      "stop" : 1629639967080,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Feature",
+      "children" : [ {
+        "name" : "Story",
+        "children" : [ {
+          "name" : "successfullLogin()",
+          "uid" : "213fccffbc472092",
+          "parentUid" : "14cb27c467970e0cb860ebf48db3eaad",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629639967202,
+            "stop" : 1629639975252,
+            "duration" : 8050
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "14cb27c467970e0cb860ebf48db3eaad"
+      } ],
+      "uid" : "b40dece815c667fae1180e6f5a579515"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  } ],
+  "name" : "behaviors"
+}
