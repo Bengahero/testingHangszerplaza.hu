@@ -33,16 +33,15 @@ public class BaseTest {
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-extensions");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
         options.addArguments("--proxy-server='direct://");
         options.addArguments("--proxy-bypass-list=*");
         options.addArguments("start-maximized");
         options.addArguments("--disable-gpu");
         options.addArguments("--incognito");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        Thread.sleep(5000);
         driver.get(properties.getProperty("url"));
+        Thread.sleep(5000);
         homePage = new HomePage(driver);
     }
     @AfterEach

@@ -39,6 +39,6 @@ public class SearchTest extends BaseTest {
             ex.printStackTrace();
         }
 
-        Assertions.assertEquals(139, lines);
+        Assertions.assertEquals(66, lines);
     }
 }
