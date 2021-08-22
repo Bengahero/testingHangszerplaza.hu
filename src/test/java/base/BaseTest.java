@@ -12,7 +12,6 @@ import pages.HomePage;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 
 public class BaseTest {
@@ -22,7 +21,7 @@ public class BaseTest {
     //Alapbeállítások
 
     @BeforeEach
-    public void setUp() throws IOException {
+    public void setUp() throws IOException, InterruptedException {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
@@ -41,8 +40,8 @@ public class BaseTest {
         options.addArguments("--incognito");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
+        Thread.sleep(5000);
         driver.get(properties.getProperty("url"));
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         homePage = new HomePage(driver);
 
 

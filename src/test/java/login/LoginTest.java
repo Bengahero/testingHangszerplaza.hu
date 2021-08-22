@@ -1,6 +1,7 @@
 package login;
 
 import base.BaseTest;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -13,6 +14,13 @@ public class LoginTest extends BaseTest {
     //Bejelentkezés
 
     @Test
+    @Epic("Login")
+    @Feature("Feature")
+    @Story("Story")
+    @Step("Link")
+    @Link("Link")
+    @Description("Description")
+
     public void successfullLogin() throws InterruptedException, IOException {
         homePage.logIn();
         String expected = "Fiókom";
