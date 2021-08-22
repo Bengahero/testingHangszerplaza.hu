@@ -13,7 +13,7 @@ public class RegisterTest extends BaseTest {
     //Regisztróció, adatkezlési nyilatkozat használata
     @Disabled
     @Test
-    public void registrationTest() throws IOException {
+    public void registrationTest() throws IOException, InterruptedException {
         homePage.clickRegisterMenu();
         RegisterPage registerPage = homePage.clickRegisterButton();
         registerPage.giveEmailAddress();
