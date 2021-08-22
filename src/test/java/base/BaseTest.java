@@ -41,8 +41,8 @@ public class BaseTest {
         options.addArguments("--incognito");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.get(properties.getProperty("url"));
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         homePage = new HomePage(driver);
 
 
