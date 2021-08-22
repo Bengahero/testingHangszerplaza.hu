@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 
 public class ProfilePage extends FileUtil {
-    private WebDriver driver;
+    private final WebDriver driver;
     private final By LASTNAME_FIELD = By.xpath("//*[@id=\"elm_17\"]");
     private final By FIRSTNAME_FIELD = By.xpath("//*[@id=\"elm_15\"]");
     private final By PHONE_NUMBER_FIELD = By.xpath("//*[@id=\"elm_31\"]");

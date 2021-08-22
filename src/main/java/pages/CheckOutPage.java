@@ -19,10 +19,5 @@ public class CheckOutPage {
         js.executeScript("arguments[0].click();",xButton);
         return new CartPage(driver);
 
-
-
-
-
-
     }
 }

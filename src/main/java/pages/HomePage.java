@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 public class HomePage extends FileUtil {
     WebDriver driver;
@@ -59,17 +58,22 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_MENU));
         driver.findElement(REGISTER_MENU).click();
 
     }
 
     public RegisterPage clickRegisterButton() {
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_BUTTON));
         driver.findElement(REGISTER_BUTTON).click();
         return new RegisterPage(driver);
     }
 
     public void clickLoginButton(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(LOGIN_BUTTON));
         driver.findElement(LOGIN_BUTTON).click();
     }
 
@@ -82,6 +86,8 @@ public class HomePage extends FileUtil {
     }
 
     public void clickOnAnotherLoginButton(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(ANOTHER_LOGIN_BUTTON));
         driver.findElement(ANOTHER_LOGIN_BUTTON).click();
     }
 
@@ -102,6 +108,8 @@ public class HomePage extends FileUtil {
     }
 
     public SearchPage searching (String item){
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_BAR));
         driver.findElement(SEARCH_BAR).sendKeys(item + Keys.ENTER);
         return new SearchPage(driver);
     }

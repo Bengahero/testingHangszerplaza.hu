@@ -10,7 +10,7 @@ import java.util.List;
 
 public class ProductPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
     private final By ADD_TO_CART_BUTTON = By.xpath("//*[@id=\"button_cart_26955\"]");
     private final By CHECKOUT_BUTTON = By.xpath("/html/body/div[4]/div/div[2]/div[2]/a");
 

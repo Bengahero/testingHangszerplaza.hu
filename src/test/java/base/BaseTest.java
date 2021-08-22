@@ -38,7 +38,7 @@ public class BaseTest {
         options.addArguments("start-maximized");
         options.addArguments("--disable-gpu");
         options.addArguments("--incognito");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
         Thread.sleep(5000);

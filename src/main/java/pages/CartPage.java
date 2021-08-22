@@ -12,6 +12,7 @@ public class CartPage {
     }
 
     public String cartMessage(){
+
         return driver.findElement(CART_MESSAGE).getText();
     }
 
