@@ -57,27 +57,25 @@ public class HomePage extends FileUtil {
         Thread.sleep(5000);
     }
 
-    public void clickRegisterMenu() {
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_MENU));
+    public void clickRegisterMenu() throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(REGISTER_MENU).click();
 
     }
 
-    public RegisterPage clickRegisterButton() {
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.elementToBeClickable(REGISTER_BUTTON));
+    public RegisterPage clickRegisterButton() throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(REGISTER_BUTTON).click();
         return new RegisterPage(driver);
     }
 
-    public void clickLoginButton(){
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.elementToBeClickable(LOGIN_BUTTON));
+    public void clickLoginButton() throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(LOGIN_BUTTON).click();
     }
 
     public void setEmailAddress() throws IOException {
+
         driver.findElement(EMAIL_TEXT_FIELD).sendKeys(util("email"));
     }
 
@@ -85,15 +83,13 @@ public class HomePage extends FileUtil {
         driver.findElement(PASSWORD_TEXT_FIELD).sendKeys(util("password"));
     }
 
-    public void clickOnAnotherLoginButton(){
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.elementToBeClickable(ANOTHER_LOGIN_BUTTON));
+    public void clickOnAnotherLoginButton() throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(ANOTHER_LOGIN_BUTTON).click();
     }
 
-    public ProfilePage clickOnMyProfile(){
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.elementToBeClickable(MY_PROFILE_BUTTON));
+    public ProfilePage clickOnMyProfile() throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(MY_PROFILE_BUTTON).click();
         driver.findElement(MY_PROFILE_DATA).click();
         return new ProfilePage(driver);
@@ -107,9 +103,8 @@ public class HomePage extends FileUtil {
         driver.findElement(LOGOUT_BUTTON).click();
     }
 
-    public SearchPage searching (String item){
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_BAR));
+    public SearchPage searching (String item) throws InterruptedException {
+        Thread.sleep(5000);
         driver.findElement(SEARCH_BAR).sendKeys(item + Keys.ENTER);
         return new SearchPage(driver);
     }

@@ -17,7 +17,7 @@ public class SearchTest extends BaseTest {
     // Adatok listázása
 
     @Test
-    public void successfullSearch() throws IOException {
+    public void successfullSearch() throws IOException, InterruptedException {
         SearchPage searchPage = homePage.searching(fileutil.util("thirdsearchitem"));
         homePage.scrollThroughPage();
         String expected = "Termékek száma: 22";

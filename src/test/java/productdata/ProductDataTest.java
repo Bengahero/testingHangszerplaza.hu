@@ -17,7 +17,7 @@ public class ProductDataTest extends BaseTest {
 
 
     @Test
-    public void productDataDownload() throws IOException {
+    public void productDataDownload() throws IOException, InterruptedException {
         SearchPage searchPage = homePage.searching((fileutil.util("firstsearchitem")));
         ProductPage productPage = searchPage.clickOnProduct();
         String result = productPage.getProductData();
@@ -27,7 +27,7 @@ public class ProductDataTest extends BaseTest {
     // Adat vagy adatok törlése
 
     @Test
-    public void addProductToCartAndRemove() throws IOException {
+    public void addProductToCartAndRemove() throws IOException, InterruptedException {
         SearchPage searchPage = homePage.searching(fileutil.util("secondsearchitem"));
         ProductPage productPage = searchPage.clickOnProduct();
         productPage.addToCart();
