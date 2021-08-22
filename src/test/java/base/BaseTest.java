@@ -25,7 +25,6 @@ public class BaseTest {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
-        System.setProperty("webdriver.chrome.whitelistedIps", "");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
@@ -36,6 +35,7 @@ public class BaseTest {
         options.addArguments("--headless");
         options.addArguments("--proxy-server='direct://");
         options.addArguments("--proxy-bypass-list=*");
+        options.addArguments("start-maximized");
         options.addArguments("--disable-gpu");
         options.addArguments("--incognito");
         options.addArguments("--headless");

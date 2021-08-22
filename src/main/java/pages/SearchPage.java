@@ -13,7 +13,7 @@ import java.util.List;
 
 
 public class SearchPage{
-    private WebDriver driver;
+    private final WebDriver driver;
     private final By FIRST_PRODUCT = By.cssSelector("#pagination_contents > div.grid-list > div:nth-child(1) > div > form > div.ty-grid-list__item-name > bdi > a");
     private final By SEARCH_RESULT_TEXT = By.xpath("//*[@id=\"products_search_total_found_11\"]");
     private final By NEXT_BUTTON = By.xpath("//*[@id=\"pagination_contents\"]/div[1]/a[2]/i");
@@ -40,9 +40,9 @@ public class SearchPage{
         while (i<paginationSize) {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].click();", driver.findElement(NEXT_BUTTON));
+            Thread.sleep(1000);
             titles = driver.findElements(By.xpath("//div[@class='ty-grid-list__item-name']//a"));
             for (WebElement title : titles) {
-                Thread.sleep(1000);
                 bufferedWriter.write(title.getText());
                 bufferedWriter.newLine();
                 System.out.println(title.getText());
