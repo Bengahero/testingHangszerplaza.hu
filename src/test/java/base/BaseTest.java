@@ -2,7 +2,6 @@ package base;
 
 //junit 5.
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +25,8 @@ public class BaseTest {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        //WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
@@ -41,7 +41,7 @@ public class BaseTest {
         options.addArguments("--incognito");
         options.addArguments("--disable-blink-features");
         options.addArguments("--disable-blink-features=AutomationControlled");
-        ChromeDriver driver = new ChromeDriver(options);
+        driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
         homePage = new HomePage(driver);
     }
