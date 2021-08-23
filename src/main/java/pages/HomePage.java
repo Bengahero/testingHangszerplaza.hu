@@ -58,7 +58,7 @@ public class HomePage extends FileUtil {
     }
 
     public void clickRegisterMenu() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(15000);
         driver.findElement(REGISTER_MENU).click();
 
 
