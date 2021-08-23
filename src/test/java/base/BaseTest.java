@@ -25,7 +25,7 @@ public class BaseTest {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/bencefulop/Downloads/codecool/automation testing/testingHangszerplaza.hu/chromedriver");
         //WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
