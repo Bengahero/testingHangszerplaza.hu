@@ -1,5 +1,7 @@
 # testingHangszerplaza.hu
 Vizsgaremek
+
+
 Az alkalmazás a www.hangszerplaza.hu internetes hangszerbolt weboldalának felületét teszteli, különböző szempontok szerint, mint például:
 
 - Profil regisztrációja az oldalra
