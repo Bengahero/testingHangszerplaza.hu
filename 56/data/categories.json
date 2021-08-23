@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"search_input\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.6opeyS}, goog:chromeOptions: {debuggerAddress: localhost:34877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2e50a9b623a4cbe5222190c43d6afd8b\n*** Element info: {Using=xpath, value=//*[@id=\"search_input\"]}",
+      "children" : [ {
+        "name" : "productDataDownload()",
+        "uid" : "362a9790fc129b2f",
+        "parentUid" : "d728194a6a582b81ea0b46dc0666672f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722170629,
+          "stop" : 1629722176634,
+          "duration" : 6005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d728194a6a582b81ea0b46dc0666672f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"search_input\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.QNn3w3}, goog:chromeOptions: {debuggerAddress: localhost:34449}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 519535704113cf853c660f91e78f9f5c\n*** Element info: {Using=xpath, value=//*[@id=\"search_input\"]}",
+      "children" : [ {
+        "name" : "addProductToCartAndRemove()",
+        "uid" : "37fe6a02e50cefb5",
+        "parentUid" : "e1ad31a1593ad384d926221be66d873b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722176742,
+          "stop" : 1629722182195,
+          "duration" : 5453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1ad31a1593ad384d926221be66d873b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uiol0Z}, goog:chromeOptions: {debuggerAddress: localhost:40141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e2facc9ce58d4d1db2ab7a6674c64ee8\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "succesfullLogOut()",
+        "uid" : "675273a83dd94ba7",
+        "parentUid" : "ae0c3dd39a37754420f9ba95b27c49ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722182203,
+          "stop" : 1629722197672,
+          "duration" : 15469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae0c3dd39a37754420f9ba95b27c49ef"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.OOzMik}, goog:chromeOptions: {debuggerAddress: localhost:35487}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d2902f9592efed8bbe486f744fcf42e8\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "setProfileDataTest()",
+        "uid" : "9768f081b7c06f3d",
+        "parentUid" : "0349f3d8b81ae254249439e81b0f85e7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722197685,
+          "stop" : 1629722213112,
+          "duration" : 15427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0349f3d8b81ae254249439e81b0f85e7"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.lYZPp3}, goog:chromeOptions: {debuggerAddress: localhost:38239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ccc0cf1fc299b6fea2885758a575a317\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "updateNamesTest()",
+        "uid" : "7b669fc090ce6f7c",
+        "parentUid" : "33cf34249686b0e65e7c4ed40740afbe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722213116,
+          "stop" : 1629722228525,
+          "duration" : 15409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33cf34249686b0e65e7c4ed40740afbe"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.VSJX3I}, goog:chromeOptions: {debuggerAddress: localhost:40877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dbb18962ef2a2675a8812dd5211eb224\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "setCityTest()",
+        "uid" : "5dc322c7a9eb8da3",
+        "parentUid" : "85793ae67efe7569a7d8c5b5ddeec3f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722228545,
+          "stop" : 1629722244168,
+          "duration" : 15623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85793ae67efe7569a7d8c5b5ddeec3f8"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.6fuLyA}, goog:chromeOptions: {debuggerAddress: localhost:39269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c29b1efec989e95781980bca317e97e9\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "enterMyProfileTest()",
+        "uid" : "255bbbc73a66c6fe",
+        "parentUid" : "60e9f6eec5f19980de78d2b254ba45cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722244180,
+          "stop" : 1629722259600,
+          "duration" : 15420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60e9f6eec5f19980de78d2b254ba45cc"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"search_input\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.heWNKh}, goog:chromeOptions: {debuggerAddress: localhost:46599}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3a16635a2da0fa59f964cf1e47a8b473\n*** Element info: {Using=xpath, value=//*[@id=\"search_input\"]}",
+      "children" : [ {
+        "name" : "successfullSearch()",
+        "uid" : "fe2c89155611acf7",
+        "parentUid" : "5fb442326188278dd9f390a2ff72d49b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722259626,
+          "stop" : 1629722265069,
+          "duration" : 5443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fb442326188278dd9f390a2ff72d49b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"search_input\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.tpoiBe}, goog:chromeOptions: {debuggerAddress: localhost:33367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 61bf6ace73f0052e2c424b97418263c7\n*** Element info: {Using=xpath, value=//*[@id=\"search_input\"]}",
+      "children" : [ {
+        "name" : "multiplePageSearch()",
+        "uid" : "95cb8f6ee7472ce8",
+        "parentUid" : "9436715616d08b94fa2115a325d17754",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722265072,
+          "stop" : 1629722270493,
+          "duration" : 5421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9436715616d08b94fa2115a325d17754"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='https://hangszerplaza.hu/profil-frissitese/']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.243', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.1GtzzR}, goog:chromeOptions: {debuggerAddress: localhost:34521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c4de6e04b14e4e60b25030ab140cbb3\n*** Element info: {Using=xpath, value=//a[@href='https://hangszerplaza.hu/profil-frissitese/']}",
+      "children" : [ {
+        "name" : "successfullLogin()",
+        "uid" : "663c553b9b01bdc4",
+        "parentUid" : "06782db52b3bd5e7eb01865cc16b8580",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629722270515,
+          "stop" : 1629722286220,
+          "duration" : 15705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06782db52b3bd5e7eb01865cc16b8580"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
