@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az81-941",
+    "children" : [ {
+      "name" : "4047@fv-az81-941.ForkJoinPool-1-worker-3(16)",
+      "children" : [ {
+        "name" : "enterMyProfileTest()",
+        "uid" : "d22de14cde6a96cb",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715915684,
+          "stop" : 1629715921142,
+          "duration" : 5458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setProfileDataTest()",
+        "uid" : "cd34dc18b748649d",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715899421,
+          "stop" : 1629715904821,
+          "duration" : 5400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setCityTest()",
+        "uid" : "6e1c058135806a6a",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715910258,
+          "stop" : 1629715915660,
+          "duration" : 5402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "productDataDownload()",
+        "uid" : "c6787f99e20c0048",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715882144,
+          "stop" : 1629715888320,
+          "duration" : 6176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest()",
+        "uid" : "39064047bb86ee18",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629715932060,
+          "stop" : 1629715932060,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "updateNamesTest()",
+        "uid" : "7a4079205452773e",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715904826,
+          "stop" : 1629715910248,
+          "duration" : 5422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "multiplePageSearch()",
+        "uid" : "c4a32f68c987e37a",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715926623,
+          "stop" : 1629715932047,
+          "duration" : 5424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfullLogin()",
+        "uid" : "6b662c31784420b",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715932066,
+          "stop" : 1629715937801,
+          "duration" : 5735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "succesfullLogOut()",
+        "uid" : "b470a22dd5e5abe7",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715893996,
+          "stop" : 1629715899399,
+          "duration" : 5403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "successfullSearch()",
+        "uid" : "44aa9afb5e233679",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715921170,
+          "stop" : 1629715926617,
+          "duration" : 5447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addProductToCartAndRemove()",
+        "uid" : "b7bc6251c8433ea5",
+        "parentUid" : "9d9bcb8ce53d12514f09d3d213faaf52",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629715888426,
+          "stop" : 1629715893973,
+          "duration" : 5547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d9bcb8ce53d12514f09d3d213faaf52"
+    } ],
+    "uid" : "0d077a4bf34502ca8566e1c1d5f78c83"
+  } ],
+  "name" : "timeline"
+}
