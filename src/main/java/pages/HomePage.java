@@ -30,6 +30,7 @@ public class HomePage extends FileUtil {
     private final By MY_PROFILE_DATA = By.xpath("//*[@id=\"account_info_303\"]/ul/li[2]/a");
     private final By MY_PROFILE_TEXT = By.xpath("//*[@id=\"sw_dropdown_303\"]/a/span");
 
+
     // for logout
     private final By LOGOUT_BUTTON = By.xpath("//*[@id=\"account_info_303\"]/div/a");
 
@@ -42,8 +43,8 @@ public class HomePage extends FileUtil {
     // constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        WebDriverWait wait = new WebDriverWait(driver,120);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_BUTTON));
+        WebDriverWait wait = new WebDriverWait(driver,60);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(SEARCH_BAR));
     }
 
 
