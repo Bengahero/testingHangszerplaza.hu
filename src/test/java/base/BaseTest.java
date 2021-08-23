@@ -34,7 +34,7 @@ public class BaseTest {
         options.addArguments("--disable-extensions");
         // options.addArguments("start-maximized");
        // options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         //options.addArguments("--proxy-server='direct://");
         //options.addArguments("--proxy-bypass-list=*");
         options.addArguments("--disable-gpu");
