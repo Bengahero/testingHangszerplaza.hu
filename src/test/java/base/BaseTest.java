@@ -43,6 +43,7 @@ public class BaseTest {
         options.addArguments("--disable-blink-features=AutomationControlled");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
+
         homePage = new HomePage(driver);
     }
     @AfterEach

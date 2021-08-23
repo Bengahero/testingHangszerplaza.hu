@@ -42,6 +42,8 @@ public class HomePage extends FileUtil {
     // constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
+        WebDriverWait wait = new WebDriverWait(driver,120);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTER_BUTTON));
     }
 
 
@@ -57,8 +59,7 @@ public class HomePage extends FileUtil {
         Thread.sleep(5000);
     }
 
-    public void clickRegisterMenu() throws InterruptedException {
-        Thread.sleep(15000);
+    public void clickRegisterMenu() {
         driver.findElement(REGISTER_MENU).click();
 
 
