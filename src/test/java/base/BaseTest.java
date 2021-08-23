@@ -2,6 +2,7 @@ package base;
 
 //junit 5.
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -25,8 +26,7 @@ public class BaseTest {
         Properties properties = new Properties();
         FileInputStream fis = new FileInputStream("src/main/java/datadriven.properties");
         properties.load(fis);
-        System.setProperty("webdriver.chrome.driver", "/Users/bencefulop/Downloads/codecool/automation testing/testingHangszerplaza.hu/chromedriver");
-        //WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
