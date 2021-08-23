@@ -41,7 +41,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         homePage = new HomePage(driver);
     }
     @AfterEach
