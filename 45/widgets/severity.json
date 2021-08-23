@@ -1,0 +1,111 @@
+[ {
+  "uid" : "69a1fc6192c1828",
+  "name" : "registrationTest()",
+  "time" : {
+    "start" : 1629704096911,
+    "stop" : 1629704096911,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bc1c733e01fc12d9",
+  "name" : "successfullLogin()",
+  "time" : {
+    "start" : 1629704096926,
+    "stop" : 1629704132614,
+    "duration" : 35688
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cabe95acb085e708",
+  "name" : "setProfileDataTest()",
+  "time" : {
+    "start" : 1629703884040,
+    "stop" : 1629703919542,
+    "duration" : 35502
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea5fccf8f0366759",
+  "name" : "multiplePageSearch()",
+  "time" : {
+    "start" : 1629704061457,
+    "stop" : 1629704096896,
+    "duration" : 35439
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33f40fce5be50f96",
+  "name" : "updateNamesTest()",
+  "time" : {
+    "start" : 1629703919552,
+    "stop" : 1629703955035,
+    "duration" : 35483
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "147ba0925d1a97fe",
+  "name" : "setCityTest()",
+  "time" : {
+    "start" : 1629703955045,
+    "stop" : 1629703990483,
+    "duration" : 35438
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "94a999754d5e531f",
+  "name" : "successfullSearch()",
+  "time" : {
+    "start" : 1629704025989,
+    "stop" : 1629704061453,
+    "duration" : 35464
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "39e7d57134bc20f4",
+  "name" : "enterMyProfileTest()",
+  "time" : {
+    "start" : 1629703990497,
+    "stop" : 1629704025984,
+    "duration" : 35487
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60aa7798fce5d78",
+  "name" : "addProductToCartAndRemove()",
+  "time" : {
+    "start" : 1629703812853,
+    "stop" : 1629703848390,
+    "duration" : 35537
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "341811359d55354",
+  "name" : "succesfullLogOut()",
+  "time" : {
+    "start" : 1629703848415,
+    "stop" : 1629703884015,
+    "duration" : 35600
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "46c54b4a8415297",
+  "name" : "productDataDownload()",
+  "time" : {
+    "start" : 1629703776490,
+    "stop" : 1629703812767,
+    "duration" : 36277
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
