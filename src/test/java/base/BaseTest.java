@@ -13,6 +13,7 @@ import pages.HomePage;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 
 public class BaseTest {
@@ -41,7 +42,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
-        Thread.sleep(15000);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         homePage = new HomePage(driver);
     }
     @AfterEach
