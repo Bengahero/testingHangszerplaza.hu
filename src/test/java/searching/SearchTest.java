@@ -5,7 +5,6 @@ import fileutil.FileUtil;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.SearchPage;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,7 +14,6 @@ public class SearchTest extends BaseTest {
     FileUtil fileutil = new FileUtil();
 
     // Adatok listázása
-
     @Test
     public void successfullSearch() throws IOException, InterruptedException {
         SearchPage searchPage = homePage.searching(fileutil.util("thirdsearchitem"));
@@ -25,7 +23,6 @@ public class SearchTest extends BaseTest {
     }
 
     // Többoldalas lista bejárása
-
     @Test
     public void multiplePageSearch() throws InterruptedException, IOException {
         SearchPage searchPage = homePage.searching(fileutil.util("fourthsearchitem"));
@@ -38,7 +35,6 @@ public class SearchTest extends BaseTest {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
         Assertions.assertEquals(66, lines);
     }
 }

@@ -1,7 +1,5 @@
 package base;
 
-//junit 5.
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -20,7 +18,6 @@ public class BaseTest {
     public HomePage homePage;
 
     //Alapbeállítások
-
     @BeforeEach
     public void setUp() throws IOException{
         Properties properties = new Properties();
@@ -43,11 +40,10 @@ public class BaseTest {
         options.addArguments("--disable-blink-features=AutomationControlled");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
-
         homePage = new HomePage(driver);
     }
+
     @AfterEach
-    public void tearDown(){
-        driver.quit();
+    public void tearDown(){ driver.quit();
     }
 }

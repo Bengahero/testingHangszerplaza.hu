@@ -2,7 +2,6 @@ package pages;
 import fileutil.FileUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.io.IOException;
 
 public class RegisterPage extends FileUtil {

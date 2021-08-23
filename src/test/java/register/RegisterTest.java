@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import pages.RegisterPage;
 import pages.UserAggrementPage;
-
 import java.io.IOException;
 
 public class RegisterTest extends BaseTest {

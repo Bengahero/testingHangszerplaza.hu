@@ -4,20 +4,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-
 public class SearchPage{
     private final WebDriver driver;
     private final By FIRST_PRODUCT = By.cssSelector("#pagination_contents > div.grid-list > div:nth-child(1) > div > form > div.ty-grid-list__item-name > bdi > a");
     private final By SEARCH_RESULT_TEXT = By.xpath("//*[@id=\"products_search_total_found_11\"]");
     private final By NEXT_BUTTON = By.xpath("//*[@id=\"pagination_contents\"]/div[1]/a[2]/i");
-
 
     public SearchPage(WebDriver driver) {
         this.driver = driver;

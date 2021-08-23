@@ -15,6 +15,4 @@ public class CartPage {
 
         return driver.findElement(CART_MESSAGE).getText();
     }
-
-
 }
