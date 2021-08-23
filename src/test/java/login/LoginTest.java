@@ -17,8 +17,8 @@ public class LoginTest extends BaseTest {
     //Bejelentkezés
     @Test
     public void successfullLogin() throws InterruptedException, IOException {
-        homePage.logIn();
         Allure.addAttachment("Google Image", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+        homePage.logIn();
         String expected = "Fiókom";
         String result = driver.findElement(PROFIL_BUTTON_AFTER_LOGIN).getText();
         Assertions.assertEquals(expected,result);
