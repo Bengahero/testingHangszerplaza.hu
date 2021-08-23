@@ -1,0 +1,111 @@
+[ {
+  "uid" : "e284b28e5244e9f9",
+  "name" : "multiplePageSearch()",
+  "time" : {
+    "start" : 1629703571483,
+    "stop" : 1629703591834,
+    "duration" : 20351
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fa5129154162063a",
+  "name" : "registrationTest()",
+  "time" : {
+    "start" : 1629703591854,
+    "stop" : 1629703591854,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ea8d47e98c1191c7",
+  "name" : "addProductToCartAndRemove()",
+  "time" : {
+    "start" : 1629703428277,
+    "stop" : 1629703448728,
+    "duration" : 20451
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4cdf4507bd81aa6a",
+  "name" : "successfullLogin()",
+  "time" : {
+    "start" : 1629703591862,
+    "stop" : 1629703612665,
+    "duration" : 20803
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e0f87086e9eb5582",
+  "name" : "productDataDownload()",
+  "time" : {
+    "start" : 1629703407260,
+    "stop" : 1629703428181,
+    "duration" : 20921
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "acbaddfef103d4b3",
+  "name" : "succesfullLogOut()",
+  "time" : {
+    "start" : 1629703448738,
+    "stop" : 1629703469125,
+    "duration" : 20387
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1652ab7301ad9c15",
+  "name" : "setProfileDataTest()",
+  "time" : {
+    "start" : 1629703469135,
+    "stop" : 1629703489678,
+    "duration" : 20543
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "319563c48c98839e",
+  "name" : "successfullSearch()",
+  "time" : {
+    "start" : 1629703551079,
+    "stop" : 1629703571480,
+    "duration" : 20401
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "10113912e01da8f0",
+  "name" : "enterMyProfileTest()",
+  "time" : {
+    "start" : 1629703530674,
+    "stop" : 1629703551071,
+    "duration" : 20397
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87d4330b1d750b90",
+  "name" : "updateNamesTest()",
+  "time" : {
+    "start" : 1629703489681,
+    "stop" : 1629703510029,
+    "duration" : 20348
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "86a3d6b7689105e7",
+  "name" : "setCityTest()",
+  "time" : {
+    "start" : 1629703510036,
+    "stop" : 1629703530665,
+    "duration" : 20629
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
