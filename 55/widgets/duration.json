@@ -1,0 +1,111 @@
+[ {
+  "uid" : "5d4360088841ff9e",
+  "name" : "enterMyProfileTest()",
+  "time" : {
+    "start" : 1629721808844,
+    "stop" : 1629721808860,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "531feaad09263e92",
+  "name" : "addProductToCartAndRemove()",
+  "time" : {
+    "start" : 1629721808686,
+    "stop" : 1629721808689,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "475459d9a75d4f2e",
+  "name" : "productDataDownload()",
+  "time" : {
+    "start" : 1629721808485,
+    "stop" : 1629721808589,
+    "duration" : 104
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "839a56b43ff02e83",
+  "name" : "successfullSearch()",
+  "time" : {
+    "start" : 1629721808896,
+    "stop" : 1629721808899,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "acd1773404e8750d",
+  "name" : "multiplePageSearch()",
+  "time" : {
+    "start" : 1629721808904,
+    "stop" : 1629721808920,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e5f9b66c787c16b0",
+  "name" : "registrationTest()",
+  "time" : {
+    "start" : 1629721808960,
+    "stop" : 1629721808960,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1596a337a2b39c54",
+  "name" : "setProfileDataTest()",
+  "time" : {
+    "start" : 1629721808761,
+    "stop" : 1629721808763,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3016c27ce8939f74",
+  "name" : "updateNamesTest()",
+  "time" : {
+    "start" : 1629721808775,
+    "stop" : 1629721808777,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff5d17073e08101a",
+  "name" : "setCityTest()",
+  "time" : {
+    "start" : 1629721808791,
+    "stop" : 1629721808794,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1aefcbc2ee375370",
+  "name" : "succesfullLogOut()",
+  "time" : {
+    "start" : 1629721808728,
+    "stop" : 1629721808738,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "50e13025a568e614",
+  "name" : "successfullLogin()",
+  "time" : {
+    "start" : 1629721808987,
+    "stop" : 1629721808993,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
