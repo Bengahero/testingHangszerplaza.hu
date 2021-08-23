@@ -30,21 +30,20 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--window-size=1920,1080");
-        options.addArguments("--disable-notifications");
-        options.addArguments("--disable-extensions");
+        //options.addArguments("--disable-notifications");
+       // options.addArguments("--disable-extensions");
         // options.addArguments("start-maximized");
        // options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         //options.addArguments("--proxy-server='direct://");
         //options.addArguments("--proxy-bypass-list=*");
-        options.addArguments("--disable-gpu");
+        //options.addArguments("--disable-gpu");
         options.addArguments("--incognito");
         options.addArguments("--disable-blink-features");
         options.addArguments("--disable-blink-features=AutomationControlled");
         driver = new ChromeDriver(options);
         driver.get(properties.getProperty("url"));
-        driver.navigate().refresh();
-        Thread.sleep(10000);
+        Thread.sleep(50000);
         homePage = new HomePage(driver);
     }
     @AfterEach
